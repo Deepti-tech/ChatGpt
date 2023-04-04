@@ -49,6 +49,16 @@
 .chatgpt .chat-avatar{
   background-color: #10A37f;
 }
+
+@media screen and (max-width: 800px) {
+  .chat-log {
+    padding: 24px 10px;
+  }
+  .chat-message{
+    padding: 0 4px;
+    min-width: 40px;
+  }
+}
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
